@@ -1,15 +1,10 @@
 <?php
-    include_once ("../funcoes.php");
-    include_once ("../conexao.php");
+  include_once('cabecalho.php');
 ?>
-<?php
-    include_once("cabecalho.php");
-?>
-    <main class="form-signin text-center">
+<main class="form-signin text-center">
   <form>
     <img class="mb-4" src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="72" height="57">
     <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
-
     <div class="form-floating">
       <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
       <label for="floatingInput">Email address</label>
@@ -18,7 +13,6 @@
       <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
       <label for="floatingPassword">Password</label>
     </div>
-
     <div class="checkbox mb-3">
       <label>
         <input type="checkbox" value="remember-me"> Remember me
@@ -29,4 +23,5 @@
   </form>
 </main>
 <?php
-    include_once("rodape.php");
+  include_once('rodape.php');
+?>
